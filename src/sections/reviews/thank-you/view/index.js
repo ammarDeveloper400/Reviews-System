@@ -1,0 +1,1 @@
+export { default as ThankYouView } from './thank-you-view';

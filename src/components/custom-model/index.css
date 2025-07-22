@@ -1,0 +1,28 @@
+@keyframes slideInRight {
+  from {
+    transform: translateX(-100%);
+    opacity: 5;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 5;
+  }
+}
+
+.image-animate {
+  animation: slideInRight 0.5s forwards;
+}
+@keyframes slideInRightToLeft {
+    from {
+      transform: translateX(100%); /* Start off-screen to the right */
+      opacity: 5;
+    }
+    to {
+      transform: translateX(0); /* End off-screen to the left */
+      opacity: 5;
+    }
+  }
+  
+  .image-animate1 {
+    animation: slideInRightToLeft 0.5s backwards;
+  }

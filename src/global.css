@@ -1,0 +1,75 @@
+/* scrollbar */
+@import 'simplebar-react/dist/simplebar.min.css';
+
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* customDatePicker.css */
+.rmdp-day.rmdp-selected,
+.rmdp-day.rmdp-selected span,
+.rmdp-day.rmdp-range {
+  background-color: #01565a !important; /* Background color for selected days */
+  color: white !important; /* Text color for better contrast */
+  border-radius: 100px;
+  border-width: 0 !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.rmdp-day.rmdp-today span {
+  background-color: #01565aba !important;
+}
+.rmdp-month-picker .rmdp-month.rmdp-selected,
+.rmdp-year-picker .rmdp-year.rmdp-selected {
+  background-color: #01565a !important; /* Background color for selected months and years */
+  color: white !important; /* Text color for better contrast */
+  border-width: 0 !important;
+  border: none !important;
+}
+
+.rmdp-week-day {
+  color: #01565a !important;
+}
+.rmdp-day span:hover {
+  background-color: #01565a !important;
+}
+.rmdp-arrow {
+  border: solid #01565a !important;
+  border-width: 0 2px 2px 0 !important;
+  width: 8px !important;
+  height: 8px !important;
+}
+
+.rmdp-arrow-container:hover {
+  background-color: transparent !important;
+  box-shadow: none !important;
+}
+
+.slick-slider .slick-dots{
+  height: 20px !important;
+}
+.slick-dots button:before{
+  font-size: 14px !important;
+}
+.slick-dots .slick-active button:before{
+  color: #FFC500 !important;
+}
+/* .css-1gnd1fd-MuiButton-endIcon {
+  margin-left: 0 !important;
+}
+.css-gcc2o7-MuiButton-startIcon{
+  margin-right: 0 !important;
+} */
